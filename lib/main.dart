@@ -10,7 +10,7 @@ import 'package:shop_app/presentation_layer/shared/sharedPrefrences/sharedprefre
 import 'package:shop_app/presentation_layer/shared/style/theme/theme.dart';
 import 'package:shop_app/web_services/dio_heloper.dart';
 import 'data_layer/bloc_observer/bloc_observer.dart';
-
+//////////////////////////////////
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   Bloc.observer = MyBlocObserver();
