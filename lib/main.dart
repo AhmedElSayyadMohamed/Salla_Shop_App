@@ -11,9 +11,6 @@ import 'package:shop_app/presentation_layer/shared/style/theme/theme.dart';
 import 'package:shop_app/web_services/dio_heloper.dart';
 import 'data_layer/bloc_observer/bloc_observer.dart';
 
-
-// hunter change //
-// hunter branch
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   Bloc.observer = MyBlocObserver();
